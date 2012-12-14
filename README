@@ -1,0 +1,3 @@
+a collection of issues (and if possible) their workaround when porting existing C# code to flash in Unity3d
+
+Uncomment WORKAROUND to see the problematic code in each class.

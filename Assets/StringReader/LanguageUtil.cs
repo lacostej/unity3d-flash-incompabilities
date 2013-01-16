@@ -21,13 +21,20 @@ public class LanguageUtil : MonoBehaviour {
 public class TranslationParser {
 
 	internal static Dictionary<string, string> parse(string text) {
-		Debug.Log ("TEXT >" + text);
 		Dictionary<string, string> data = new Dictionary<string, string>();
-		StringReader strReader = new StringReader(text);
+		StringReader strReader = new StringReader(text); // THIS FAILS with
+/* TypeError: Error #1009: Cannot access a property or method of a null object reference.
+        at global$init()
+        at Function/<anonymous>()
+        at System.IO::TextReader$cinit()
+        at global$init()
+        at global$init()
+        at global::TranslationParser$/TranslationParser_parse_String()[/Users/lacostej/Code/WWTK/FlashPortProblems/Temp/StagingArea/Data/ConvertedDotNetCode/global/TranslationParser.as:23]
+        at global::LanguageUtil/LanguageUtil_Start()[/Users/lacostej/Code/WWTK/FlashPortProblems/Temp/StagingArea/Data/ConvertedDotNetCode/global/LanguageUtil.as:26]
+*/
 		while(true)
 		{
     		string aLine = strReader.ReadLine();
-			Debug.Log ("LINE >" + aLine);
     		if (aLine == null) break;
 			if (aLine.StartsWith("#") || aLine.StartsWith("//")) continue;
 			if (aLine.Trim().Length == 0) continue;

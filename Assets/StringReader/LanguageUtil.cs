@@ -10,8 +10,8 @@ public class LanguageUtil : MonoBehaviour {
 		dict = TranslationParser.parse(text);
 	}
 	public void OnGUI() {
-		GUI.Label(new Rect(20, 40, 100, 100), "LanguageUtil...: ");
-		GUI.Label(new Rect(150, 40, 100, 100), dict["a"] + " & " + dict["c"]);
+		GUI.Label(new Rect(20, 20, 100, 100), "LanguageUtil...: ");
+		GUI.Label(new Rect(150, 20, 100, 100), dict["a"] + " & " + dict["c"]);
 	}
 }
 

@@ -22,6 +22,24 @@ public class TranslationParser {
 
 	internal static Dictionary<string, string> parse(string text) {
 		Dictionary<string, string> data = new Dictionary<string, string>();
+#if UNITY_FLASH
+		int i = 0;
+		string[] array = text.Split ('\n');
+		while(i < array.Length)
+		{
+    		string aLine = array[i];
+			i++;
+			if (aLine.StartsWith("#") || aLine.StartsWith("//")) continue;
+			if (aLine.Trim().Length == 0) continue;
+			string[] r = SplitLine(aLine);
+			if (r.Length != 2) {
+				Debug.Log ("Failed to parse <" + aLine + ">");
+				continue;	
+			}
+			
+			data.Add(r[0], r[1].Replace("\\n", "\n"));
+		}	
+#else
 		StringReader strReader = new StringReader(text); // THIS FAILS with
 /* TypeError: Error #1009: Cannot access a property or method of a null object reference.
         at global$init()
@@ -46,6 +64,7 @@ public class TranslationParser {
 			
 			data.Add(r[0], r[1].Replace("\\n", "\n"));
 		}
+#endif
 		return data;
 	}
 

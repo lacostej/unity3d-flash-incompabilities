@@ -1,6 +1,7 @@
 //using System;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Text;
 
 public class StringUtil {
 	
@@ -8,12 +9,13 @@ public class StringUtil {
 	}
 	
 	public static string RemoveAllWhite(string _str) {
-		string dst = "";
+		if (_str == null) return null;
+		StringBuilder dst = new StringBuilder(_str.Length);
 		foreach(char c in _str) {
-			if(c!=' ' || c!='\t' || c!='\n')
-				dst += c;
+			if(c!=' ' && c!='\t' && c!='\n')
+				dst.Append(c.ToString());
 		}
-		return dst;
+		return dst.ToString();
 	}
 
 		
@@ -24,8 +26,8 @@ public class StringUtil {
 			return false;
 		_before = _str.Substring(0,i);
 		i++;
+		StringBuilder insideBuffer = new StringBuilder();
 		int level = 1;
-		_inside = "";
 		for(;i<_str.Length;i++) {
 			if(_str[i]=='(') 
 				level++;
@@ -34,9 +36,10 @@ public class StringUtil {
 				if(level==0)
 				   break;
 			}
-			_inside += _str[i];
+			insideBuffer.Append(_str[i].ToString());
 		}
 		i++;
+		_inside = insideBuffer.ToString();
 		_after = _str.Substring(i);
 		return true;
 	}

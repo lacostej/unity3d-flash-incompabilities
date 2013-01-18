@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/StringReader/Scene.unity
   - enabled: 1
     path: Assets/MiniJSON/Scene.unity
+  - enabled: 1
+    path: Assets/StringUtil/Scene.unity

@@ -1,0 +1,753 @@
+{
+    "chapterId": "01",
+    "levels": [
+     { "levelId": "00", "config": 
+{
+"introTuto": "MthTutoKill0s",
+  "expressionLeft": [
+     {"elt": "Key", "position": [103,465] },
+     {"elt": "N0", "position": [400,250] },
+     {"elt": "N0", "position": [103,250] }
+    ],
+  "expressionRight": [
+     {"elt": "C6", "position": [790,114] }
+    ],
+  "deck": [  ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 6, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 2,
+  "bestSolution": [ "C6" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "10", "config": 
+{
+  "expressionLeft": [
+     {"elt": "Key", "position": [324,429] },
+     {"elt": "N0", "position": [54,267] },
+     {"elt": "N0", "position": [340,474] },
+     {"elt": "N0", "position": [169,569] }
+    ],
+  "expressionRight": [
+     {"elt": "C5", "position": [846,66] }
+    ],
+  "deck": [  ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 20, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 3,
+  "bestSolution": [ "C5" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "11", "config": 
+{
+"introTuto": "MthTutoXmXTo0",
+  "expressionLeft": [
+     {"elt": "C2", "position": [256,280] }
+    ],
+  "expressionRight": [
+     {"elt": "C1", "position": [628,421] },
+     {"elt": "-C1", "position": [736,519] },
+     {"elt": "-N2", "position": [732,327] },
+     {"elt": "N2", "position": [846,419] },
+     {"elt": "Key", "position": [570,50] }
+    ],
+  "deck": [  ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 12, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 4,
+  "bestSolution": [ "C2" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "12", "config": 
+{
+  "expressionLeft": [
+     {"elt": "C5", "position": [329,493] },
+     {"elt": "-C5", "position": [245,582] },
+     {"elt": "N4", "position": [357,164] },
+     {"elt": "-N4", "position": [282,579] },
+     {"elt": "Key", "position": [124,333] }
+    ],
+  "expressionRight": [
+     {"elt": "C10", "position": [578,585] }
+    ],
+  "deck": [  ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 8, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 4,
+  "bestSolution": [ "C10" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "13", "config": 
+{
+  "expressionLeft": [
+     {"elt": "C5", "position": [275,48] }
+    ],
+  "expressionRight": [
+     {"elt": "-C4", "position": [742,91] },
+     {"elt": "C4", "position": [577,475] },
+     {"elt": "C8", "position": [640,61] },
+     {"elt": "-C8", "position": [644,246] },
+     {"elt": "Key", "position": [646,557] }
+    ],
+  "deck": [  ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 8, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 4,
+  "bestSolution": [ "C5" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "20", "config": 
+{
+"introTuto": "MthTutoCleanBothSides",
+  "expressionLeft": [
+     {"elt": "Key", "position": [381,260] },
+     {"elt": "C10", "position": [136,128] },
+     {"elt": "-C10", "position": [95,395] }
+    ],
+  "expressionRight": [
+     {"elt": "C3", "position": [684,463] },
+     {"elt": "N0", "position": [790,315] },
+     {"elt": "C11", "position": [762,550] }
+    ],
+  "deck": [  ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 6, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 3,
+  "bestSolution": [ "C3", "C11" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "21", "config": 
+{
+  "expressionLeft": [
+     {"elt": "C8", "position": [104,360] },
+     {"elt": "-N5", "position": [67,291] },
+     {"elt": "N5", "position": [356,183] },
+     {"elt": "C12", "position": [313,248] }
+    ],
+  "expressionRight": [
+     {"elt": "Key", "position": [642,541] },
+     {"elt": "N0", "position": [762,381] }
+    ],
+  "deck": [  ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 15, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 3,
+  "bestSolution": [ "C8", "C12" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "22", "config": 
+{
+  "expressionLeft": [
+     {"elt": "Key", "position": [188,93] },
+     {"elt": "N0", "position": [235,421] },
+     {"elt": "C5", "position": [358,499] },
+     {"elt": "-C5", "position": [46,338] }
+    ],
+  "expressionRight": [
+     {"elt": "C7", "position": [861,272] },
+     {"elt": "-C7", "position": [778,312] },
+     {"elt": "N0", "position": [720,290] },
+     {"elt": "C11", "position": [664,258] },
+     {"elt": "C3", "position": [635,66] }
+    ],
+  "deck": [  ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 13, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 6,
+  "bestSolution": [ "C11", "C3" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "30", "config": 
+{
+"introTuto": "MthTutoDeckToAdd",
+  "expressionLeft": [
+     {"elt": "C8", "position": [256,361] },
+     {"elt": "Key", "position": [256,70] }
+    ],
+  "expressionRight": [
+     {"elt": "C7", "position": [768,70] }
+    ],
+  "deck": [ "-C8" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 6, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 3,
+  "bestSolution": [ "-C8", "C7" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "31", "config": 
+{
+  "expressionLeft": [
+     {"elt": "C4", "position": [93,300] },
+     {"elt": "-C9", "position": [129,385] }
+    ],
+  "expressionRight": [
+     {"elt": "Key", "position": [730,121] },
+     {"elt": "-C9", "position": [869,395] }
+    ],
+  "deck": [ "C9" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 7, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 5,
+  "bestSolution": [ "C4", "C9" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "32", "config": 
+{
+"introTuto": "MthTutoAddOnWrongSide",
+  "expressionLeft": [
+     {"elt": "-C2", "position": [216,254] },
+     {"elt": "C4", "position": [76,471] }
+    ],
+  "expressionRight": [
+     {"elt": "C4", "position": [701,450] },
+     {"elt": "Key", "position": [749,494] },
+     {"elt": "-N6", "position": [547,151] }
+    ],
+  "deck": [ "-C4", "N6", "C2" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 15, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 8,
+  "bestSolution": [ "N6", "-C2" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "40", "config": 
+{
+  "expressionLeft": [
+     {"elt": "Key", "position": [64,97] },
+     {"elt": "C1L", "position": [155,110] }
+    ],
+  "expressionRight": [
+     {"elt": "C10", "position": [541,331] }
+    ],
+  "deck": [ "-C1L" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 10, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 3,
+  "bestSolution": [ "C10", "-C1L" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "41", "config": 
+{
+  "expressionLeft": [
+     {"elt": "C3L", "position": [268,339] },
+     {"elt": "-C3L", "position": [328,85] },
+     {"elt": "C5", "position": [106,413] }
+    ],
+  "expressionRight": [
+     {"elt": "Key", "position": [699,232] },
+     {"elt": "C6", "position": [593,423] }
+    ],
+  "deck": [ "-C6" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 11, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 5,
+  "bestSolution": [ "C5", "-C6" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "42", "config": 
+{
+  "expressionLeft": [
+     {"elt": "C5", "position": [364,331] },
+     {"elt": "C11", "position": [70,456] }
+    ],
+  "expressionRight": [
+     {"elt": "Key", "position": [681,290] },
+     {"elt": "C3L", "position": [713,150] },
+     {"elt": "C5", "position": [656,88] }
+    ],
+  "deck": [ "-C5", "-C3L" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 13, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 8,
+  "bestSolution": [ "-C3L", "C11" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "50", "config": 
+{
+"introTuto": "MthTutoTurn",
+  "expressionLeft": [
+     {"elt": "C4", "position": [371,370] },
+     {"elt": "C5", "position": [79,91] }
+    ],
+  "expressionRight": [
+     {"elt": "Key", "position": [811,223] },
+     {"elt": "C5", "position": [717,220] }
+    ],
+  "deck": [ "C5" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "auto" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 7, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 5,
+  "bestSolution": [ "C4" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "51", "config": 
+{
+  "expressionLeft": [
+     {"elt": "-C8", "position": [134,410] },
+     {"elt": "C3", "position": [128,89] },
+     {"elt": "C4", "position": [49,217] }
+    ],
+  "expressionRight": [
+     {"elt": "-C8", "position": [817,199] },
+     {"elt": "Key", "position": [623,300] }
+    ],
+  "deck": [ "C5", "-C3", "C4", "-C8", "-C10", "C12" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "auto" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 8, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 5,
+  "bestSolution": [ "C3", "C4" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "52", "config": 
+{
+  "expressionLeft": [
+     {"elt": "Key", "position": [128,227] },
+     {"elt": "C3L", "position": [54,305] },
+     {"elt": "C4", "position": [111,515] },
+     {"elt": "C12", "position": [245,455] },
+     {"elt": "-C12", "position": [363,222] }
+    ],
+  "expressionRight": [
+     {"elt": "C11", "position": [731,80] }
+    ],
+  "deck": [ "C3L", "C4", "-C11" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "auto" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 10, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 8,
+  "bestSolution": [ "-C3L", "C11", "-C4" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "60", "config": 
+{
+  "expressionLeft": [
+     {"elt": "KeyL", "position": [261,265] },
+     {"elt": "C9", "position": [375,103] }
+    ],
+  "expressionRight": [
+     {"elt": "C6", "position": [864,377] }
+    ],
+  "deck": [ "-C9" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "auto" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 8, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 3,
+  "bestSolution": [ "C6", "-C9" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "61", "config": 
+{
+  "expressionLeft": [
+     {"elt": "C1", "position": [160,122] },
+     {"elt": "C1L", "position": [206,160] },
+     {"elt": "-C1L", "position": [386,111] }
+    ],
+  "expressionRight": [
+     {"elt": "KeyL", "position": [551,225] },
+     {"elt": "C9", "position": [732,543] }
+    ],
+  "deck": [ "C9" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "auto" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 9, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 5,
+  "bestSolution": [ "C1", "-C9" ],
+  "backgroundImage": "Fond1"
+        }
+},
+     { "levelId": "62", "config": 
+{
+  "expressionLeft": [
+     {"elt": "KeyL", "position": [227,263] },
+     {"elt": "C3L", "position": [335,494] },
+     {"elt": "-C1", "position": [274,437] }
+    ],
+  "expressionRight": [
+     {"elt": "-C1", "position": [889,222] },
+     {"elt": "C3L", "position": [714,263] },
+     {"elt": "C2", "position": [784,134] }
+    ],
+  "deck": [ "-C2", "C5", "C3L", "C1" ],
+  "rules": [
+     {"name": "Kill0", "config": "auto" },
+     {"name": "Kill1", "config": "auto" },
+     {"name": "XmXTo0", "config": "auto" },
+     {"name": "XdivXTo1", "config": "" },
+     {"name": "DeckToAdd", "config": "notauto" },
+     {"name": "DeckToAddOnCard", "config": "notauto" },
+     {"name": "DeckToMult", "config": "" },
+     {"name": "DeckToDiv", "config": "" },
+     {"name": "MoveInBoard", "config": "auto" },
+     {"name": "TurnInDeck", "config": "auto" },
+     {"name": "TurnInMult", "config": "" },
+     {"name": "TurnOnlyCard", "config": "" },
+     {"name": "NaddNToN", "config": "" },
+     {"name": "NAaddNAToNA", "config": "" }
+    ],
+  "preferedCardType": "pokemon",
+  "timer": {"duration": 9, "visible": false},
+  "displayRemainingMoves": false,
+  "formatInLine": false,
+  "bestCount": 10,
+  "bestSolution": [ "C2" ],
+  "backgroundImage": "Fond1"
+        }
+}
+  ]
+}

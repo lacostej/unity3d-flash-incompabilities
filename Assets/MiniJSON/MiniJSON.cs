@@ -31,6 +31,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
+using UnityEngine;
+
 namespace MiniJSON {
     
     /// <summary>
@@ -288,7 +290,7 @@ namespace MiniJSON {
                             Array.Copy(json, index, unicodeCharArray, 0, 4);
 
                             // Drop in the HTML markup for the unicode character
-                            s.AppendFormat(string.Format("&#x{0};", new Object[]{unicodeCharArray}));
+                            s.AppendFormat(string.Format("&#x{0};", new System.Object[]{unicodeCharArray}));
 
                             // skip 4 chars
                             index += 4;
@@ -321,11 +323,15 @@ namespace MiniJSON {
 
             string numberStr = new string(numberCharArray);
 
+//#if UNITY_FLASH
+//			return Single.Parse(numberStr);
+//#else
             if (numberStr.IndexOf('.') == -1) {
                 return Int64.Parse(numberStr);
             }
 
             return Double.Parse(numberStr);
+//#endif
         }
 
         static int GetLastIndexOfNumber(char[] json, int index) {
@@ -427,14 +433,14 @@ namespace MiniJSON {
             return TOKEN.NONE;
         }
 
-        static bool SerializeObject(IDictionary anObject, StringBuilder builder) {
+        static bool SerializeObject(IDictionary<string,object> anObject, StringBuilder builder) {
             bool first = true;
 			
 			if (AddLineEndings)
 				builder.Append('\n');
             builder.Append('{');
 
-            foreach (object e in anObject.Keys) {
+            foreach (string e in anObject.Keys) {
                 if (!first) {
                     builder.Append(',');
 				if (AddLineEndings)
@@ -483,10 +489,16 @@ namespace MiniJSON {
                 return SerializeArray((IList) value, builder);
             } else if (value is string) {
                 SerializeString((string) value, builder);
-            } else if (value is Char) {         
-                SerializeString(Convert.ToString((char) value), builder);
-            } else if (value is IDictionary) {
-                return SerializeObject((IDictionary) value, builder);
+#if UNITY_FLASH && !UNITY_EDITOR
+            } else if (value is Single) {
+                SerializeNumber((Single)value, builder);
+#else
+            } else if (value is Char) {
+                Debug.Log ("Serialize Char " + value.ToString());
+                SerializeString(value.ToString(), builder);
+#endif
+            } else if (value is IDictionary<string,object>) {
+                return SerializeObject((IDictionary<string,object>) value, builder);
             } else if (value is IList) {
                 return SerializeArray((IList) value, builder);
             } else if (value is bool) {
@@ -494,6 +506,7 @@ namespace MiniJSON {
             } else if (value.GetType().IsPrimitive) {
                 SerializeNumber(Convert.ToDouble(value), builder);
             } else {
+                //Debug.Log("Unable to serialize object " + value + " of type: " + value.GetType() + " " + value.GetType().IsPrimitive + " " + (value is Single));
                 // FIXME we could serialize enums here as well, to int or to their string representation. They can cause conversion problems
                 return false;
             }

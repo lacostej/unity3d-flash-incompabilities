@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/MiniJSON/Scene.unity
   - enabled: 1
     path: Assets/StringUtil/Scene.unity
+  - enabled: 1
+    path: Assets/CustomLog/Scene.unity

@@ -19,14 +19,19 @@ public class ScCustomLog : MonoBehaviour {
 
 	void OnEnable()
 	{
-        Application.RegisterLogCallback(logHandler);
+		Application.RegisterLogCallback(logHandler);
 	}
  
+	void OnDisable()
+	{
+		Application.RegisterLogCallback(null);
+	}
+
 	private void logHandler(string logString, string stackTrace, LogType logType)
 	{
-        this.msg = logType.ToString() + "-" + logString;
+		this.msg = logType.ToString() + "-" + logString;
 		this.stacktrace = stackTrace;
-    }
+	}
 
 	public void OnGUI() {
 		GUI.Label(new Rect(20, 20, 100, 30), "Log...: ");

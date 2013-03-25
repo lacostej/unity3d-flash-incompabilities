@@ -142,15 +142,22 @@ public class ActionRadar : ActionBase {
 		m_MaterialMask.SetColor("_Color",new Color(1,1,1,1));
 		m_ColorIsWhite = true;
 		if(m_OnlyOneSide) {
-			m_MaterialMask.SetTexture("_MaskTex",(Texture2D) Resources.Load("Images/fond/guideLandR4"));
+			m_MaterialMask.SetTexture("_MaskTex",(Texture2D) ResourcesLoad("Images/fond/guideLandR4"));
 		} else {
 		if(m_IsOnLeftSide) {
-			m_MaterialMask.SetTexture("_MaskTex",(Texture2D) Resources.Load("Images/fond/guideL4"));
+			m_MaterialMask.SetTexture("_MaskTex",(Texture2D) ResourcesLoad("Images/fond/guideL4"));
 		} else {
-			m_MaterialMask.SetTexture("_MaskTex",(Texture2D) Resources.Load("Images/fond/guideR4"));
+			m_MaterialMask.SetTexture("_MaskTex",(Texture2D) ResourcesLoad("Images/fond/guideR4"));
 		}}
 		//GOMusicMgr.PlayClip2D("Sons/SndEff_ParticleWizz",1.0f);
    }
+
+   static object ResourcesLoad(string _R) {
+   		object R = Resources.Load(_R);
+   		if (R == null)
+   			throw new System.Exception("Couldn't load " + _R);
+   		return R;
+	}
 	
 
 	

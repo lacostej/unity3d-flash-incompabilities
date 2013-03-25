@@ -7,7 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: MatRadar
-  m_Shader: {fileID: 4800000, guid: 0ae399e3ffb564772895a3bb46dce9e7, type: 3}
+  m_Shader: {fileID: 4800000, guid: e9a56345bea1440efa36f897f127a377, type: 3}
+  m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -15,14 +16,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 2f284572aeba442b2af88181be42b988, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _MaskTex
-        second:
-          m_Texture: {fileID: 2800000, guid: 9ee36a91d44024be9976d3cb88fa90b9, type: 3}
+          m_Texture: {fileID: 2800000, guid: a41f4a21f9667485c8b9ccf91a498963, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -30,6 +24,13 @@ Material:
           name: _Detail
         second:
           m_Texture: {fileID: 2800000, guid: 898239406e8974789ad04114c635ac16, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6a753f4c7597f481cb9b8fe923bb70b3, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:

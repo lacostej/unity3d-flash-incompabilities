@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/StringUtil/Scene.unity
   - enabled: 1
     path: Assets/CustomLog/Scene.unity
+  - enabled: 1
+    path: Assets/Radar/Radar.unity
